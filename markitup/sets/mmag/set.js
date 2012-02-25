@@ -1,0 +1,32 @@
+mySettings = {
+    nameSpace:       "html", // Useful to prevent multi-instances CSS conflict
+    onShiftEnter:    {keepDefault:false, replaceWith:'<br />\n'},
+    onCtrlEnter:     {keepDefault:false, openWith:'\n<p>', closeWith:'</p>\n'},
+    onTab:           {keepDefault:false, openWith:'     '},
+    markupSet:  [
+	{heading: '挨拶'},
+	{name:'Greeting 1', key:'1', subject:'朝・挨拶', message:'おはようございます！\n今日も元気にがんばっていきましょう。\n\n' },
+	{name:'Greeting 2', key:'2', subject:'夕・挨拶', message:'こんばんは！\n今日も一日楽しかったですね。\n\n' },
+	{heading: 'お知らせ'},
+	{name:'info 1', key:'', subject: 'クーポン1', message:'今だけ！全品100円引きになるクーポン配布中！\n\n' },
+	{name:'info 2', key:'', subject: 'クーポン2', message:'今だけ！全品10%引きになるクーポン配布中！\n\n' },
+	{name:'info 3', key:'', subject: 'クーポン3', message:'今だけ！公式アカウント@warumono_jpをフォローしてくれた方全員に記念品！\n\n' },
+	{name:'info 4', key:'', subject: 'クーポン4', message:'来週はスペシャルウィーク！全品5%OFFします！\n\n' },
+	{heading: 'ニュース'},
+	{name:'info', key:'', subject: 'ニュース見出し', message:'★ニュース★\n' },
+	{name:'info 1', key:'', subject: '記事1', message:'昨日の日経平均株価は8654円でした。\n\n' },
+	{name:'info 2', key:'', subject: '記事2', message:'昨日の東京都内の交通事故発生は12件でした。\n' },
+	{heading: 'ネタ'},
+	{name:'neta 1', key:'', subject: '今日の血液型占い', message:'★今日の血液型占い★\nA型…10点:明日は良い事あるさ！\nB型…100点:最高！\nO型…50点:特にコメントないです\nAB型…80点:外で遊ぶと良いことあるよ。\n\n' },
+	{name:'neta 2', key:'', subject: '明日の天気', message:'★明日の天気★\n関東地方の明日の天気は「晴れ」。午後から寒くなるそうなので、温かい恰好でお出かけ下さい。\n\n' },
+	{heading: 'リンク'},
+	{name:'link 1', key:'', subject: 'わるもの団', message:'わるもの団\nhttp://warumono.jp/\n\n' },
+	{name:'link 2', key:'', subject: 'Twitter', message:'Twitter (@inuwarumono)\nhttp://twitter.com/inuwarumono\n\n' },
+	{heading: 'フッタ'},
+	{name:'info 1', key:'5', subject: 'クーポン1', message:'今だけ！全品100円引きになるクーポン配布中！\n\n' },
+	{name:'info 2', key:'6', subject: 'クーポン2', message:'今だけ！全品10%引きになるクーポン配布中！\n\n' },
+	{heading: '行区切り'},
+	{name:'sep 1', key:'9', subject: '----(20桁)', message:'--------------------\n' },
+	{name:'sep 2', key:'0', subject: '━(10文字)', message:'━━━━━━━━━━\n' },
+    ]
+}
