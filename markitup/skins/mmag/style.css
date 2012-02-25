@@ -22,7 +22,7 @@
 	position: relative;
 }
 .markItUpEditor {
-	font:12px 'Courier New', Courier, monospace;
+	font:12px monospace;
 	padding:5px;
 	width:400px;
 	height:320px;

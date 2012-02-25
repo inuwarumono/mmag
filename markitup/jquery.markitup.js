@@ -407,7 +407,8 @@
 					range.moveEnd('character', len); 
 					range.select();
 				} else if (textarea.setSelectionRange ){
-					textarea.setSelectionRange(start, start + len);
+//					textarea.setSelectionRange(start, start + len);
+					textarea.setSelectionRange(start+len, start+len);
 				}
 				textarea.scrollTop = scrollPosition;
 				textarea.focus();

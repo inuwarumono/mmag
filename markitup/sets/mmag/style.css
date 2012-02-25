@@ -9,6 +9,9 @@
 	clear: both;
 	padding: 3px;
 }
+.markItUp .markItUpButton {
+	padding: 3px;
+}
 .markItUp .markItUpButton1 a {
 	background-image:url(images/bold.png);
 }
